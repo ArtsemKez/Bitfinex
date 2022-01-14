@@ -1,0 +1,113 @@
+.body {
+    display: flex;
+    justify-content: center;
+    background-color: #172d3e;
+    width: 100%;
+
+}
+
+.titleAsks {
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.titleBids {
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.priceBids,.totalBids,.amountBids {
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.priceAsks,.totalAsks,.amountAsks {
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.count {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bids {
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    flex-direction: column;
+    color: #ffffff;
+    font: 11px Roboto, sans-serif;
+}
+
+.asks {
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    flex-direction: column;
+    color: #ffffff;
+    font: 11px Roboto, sans-serif;
+}
+
+.bidsLines {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.bidsLines span {
+    height: 17px;
+    background-color: rgba(18, 69, 76, 0.48);
+    animation: up 2s infinite;
+}
+
+.asks span {
+    height: 17px;
+    background-color: rgba(64, 51, 64, 0.49);
+    animation: up 3s infinite;
+    width: 0;
+
+}
+
+@keyframes up {
+    0%   { width: 0; }
+    16%  { width: 25%; }
+    50%  { width: 82%; }
+    75%  { width: 35%  }
+    100% { width: 0; }
+}
+
+span:nth-child(1) { animation-delay: .1s; }
+span:nth-child(2) { animation-delay: .2s; }
+span:nth-child(3) { animation-delay: .3s; }
+span:nth-child(4) { animation-delay: .4s; }
+span:nth-child(5) { animation-delay: .5s; }
+span:nth-child(6) { animation-delay: .6s; }
+span:nth-child(7) { animation-delay: .7s; }
+span:nth-child(8) { animation-delay: .8s; }
+span:nth-child(9) { animation-delay: .9s; }
+span:nth-child(10) { animation-delay: .8s; }
+span:nth-child(11) { animation-delay: .7s; }
+span:nth-child(12) { animation-delay: .6s; }
+span:nth-child(13) { animation-delay: .5s; }
+span:nth-child(14) { animation-delay: .4s; }
+span:nth-child(15) { animation-delay: .3s; }
+span:nth-child(16) { animation-delay: .2s; }
+span:nth-child(17) { animation-delay: .1s; }
+span:nth-child(18) { animation-delay: .2s; }
+span:nth-child(19) { animation-delay: .3s; }
+span:nth-child(20) { animation-delay: .4s; }

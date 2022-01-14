@@ -1,0 +1,65 @@
+.asks{
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    flex-direction: column;
+    color: #ffffff;
+    font: 11px Roboto, sans-serif;
+}
+
+.asksTitleLine {
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.asksItemLine{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 17px;
+    margin-left: 10px;
+    z-index: 5;
+}
+
+.countRow{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amountRow{
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.totalRow{
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.priceRow{
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stripBody {
+    position: absolute;
+    background-color: #403340;
+    left: 0;
+    margin-top: -17px;
+    height: 17px;
+    color: #403340FF;
+    transition-duration: 1s;
+}
